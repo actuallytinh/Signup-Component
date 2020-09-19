@@ -1,0 +1,137 @@
+/* Import fonts from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+/*           -IT ENDS HERE-           */
+
+* {
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #DB9314;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+
+.signup-keepsign input[type=checkbox] {
+	margin-right: 5px;
+	border: none;
+	padding: 0px;
+	background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.signup-keepsign input[type=checkbox]:checked {
+	background-color: #DB9314;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+body {
+	color: #7C848C;
+	background-color: #1a1a1a;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.signup-box {
+	background-color: #141414;
+	border-radius: 5px;
+	height: auto;
+	width: 450px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 25px -24px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px -24px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.75);
+}
+
+.signup-container {
+	padding: 3rem;
+}
+
+.signup-keepsign {
+	float: left;
+	margin-left: 5px;
+}
+
+.signup-keepsign input[type=checkbox] {
+	transform: scale(1.2);
+}
+
+.forgot {
+	float: right;
+}
+
+.forgot a {
+	color: #DB9314;
+}
+
+.signup-input input {
+	display: flex;
+	width: 100%;
+	margin: 5px;
+	padding: 15px;
+}
+
+.signup-header h1 {
+	font-weight: 300;
+}
+
+.btn {
+	width: 100%;
+	margin: 5px;
+	padding: 15px;
+	display: flex;
+}
+
+.signup-box .signup-container .btn {
+	display: inline-block;
+	align-content: center;
+	border-radius: 5px;
+}
+
+.btn span {
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+#signin {
+	background-color: #DB9314;
+	color: #141414;
+}
+
+#createacc {
+	background-color: #121212;
+	color: #7C848C;
+}
+
+input {
+	color: white;
+	font-size: 16px;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom: 2px solid #7C848C;
+	background-color: transparent !important;
+	box-shadow: transparent !important;
+}
+
+.agreement a {
+	color: #DB9314;
+}
+
+.agreement {
+	white-space: pre-wrap;
+	margin-bottom: -30px;
+}
